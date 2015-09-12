@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF57864F1B9EFF2700EAC45C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF57864E1B9EFF2700EAC45C /* main.m */; };
+		EF5786521B9EFF2700EAC45C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5786511B9EFF2700EAC45C /* AppDelegate.m */; };
+		EF5786551B9EFF2700EAC45C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5786541B9EFF2700EAC45C /* ViewController.m */; };
+		EF5786581B9EFF2700EAC45C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5786561B9EFF2700EAC45C /* Main.storyboard */; };
+		EF57865A1B9EFF2700EAC45C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5786591B9EFF2700EAC45C /* Images.xcassets */; };
+		EF57865D1B9EFF2700EAC45C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF57865B1B9EFF2700EAC45C /* LaunchScreen.xib */; };
+		EF5786691B9EFF2700EAC45C /* SpinerLoginButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5786681B9EFF2700EAC45C /* SpinerLoginButtonDemoTests.m */; };
+		EF5786741B9EFF6E00EAC45C /* SpinerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5786731B9EFF6E00EAC45C /* SpinerLayer.m */; };
+		EF59D14F1BA3BF3D0076B716 /* TransitionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EF59D14E1BA3BF3D0076B716 /* TransitionButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF5786631B9EFF2700EAC45C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5786411B9EFF2700EAC45C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5786481B9EFF2700EAC45C;
+			remoteInfo = SpinerLoginButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF5786491B9EFF2700EAC45C /* SpinerLoginButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinerLoginButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF57864D1B9EFF2700EAC45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF57864E1B9EFF2700EAC45C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5786501B9EFF2700EAC45C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF5786511B9EFF2700EAC45C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF5786531B9EFF2700EAC45C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF5786541B9EFF2700EAC45C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF5786571B9EFF2700EAC45C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF5786591B9EFF2700EAC45C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF57865C1B9EFF2700EAC45C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF5786621B9EFF2700EAC45C /* SpinerLoginButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinerLoginButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5786671B9EFF2700EAC45C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5786681B9EFF2700EAC45C /* SpinerLoginButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinerLoginButtonDemoTests.m; sourceTree = "<group>"; };
+		EF5786721B9EFF6E00EAC45C /* SpinerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinerLayer.h; sourceTree = "<group>"; };
+		EF5786731B9EFF6E00EAC45C /* SpinerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinerLayer.m; sourceTree = "<group>"; };
+		EF59D14C1BA3BC660076B716 /* AppMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
+		EF59D14D1BA3BF3D0076B716 /* TransitionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionButton.h; sourceTree = "<group>"; };
+		EF59D14E1BA3BF3D0076B716 /* TransitionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5786461B9EFF2700EAC45C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF57865F1B9EFF2700EAC45C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5786401B9EFF2700EAC45C = {
+			isa = PBXGroup;
+			children = (
+				EF57864B1B9EFF2700EAC45C /* SpinerLoginButtonDemo */,
+				EF5786651B9EFF2700EAC45C /* SpinerLoginButtonDemoTests */,
+				EF57864A1B9EFF2700EAC45C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF57864A1B9EFF2700EAC45C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5786491B9EFF2700EAC45C /* SpinerLoginButtonDemo.app */,
+				EF5786621B9EFF2700EAC45C /* SpinerLoginButtonDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF57864B1B9EFF2700EAC45C /* SpinerLoginButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EF59D14C1BA3BC660076B716 /* AppMacros.h */,
+				EF5786501B9EFF2700EAC45C /* AppDelegate.h */,
+				EF5786511B9EFF2700EAC45C /* AppDelegate.m */,
+				EF5786531B9EFF2700EAC45C /* ViewController.h */,
+				EF5786541B9EFF2700EAC45C /* ViewController.m */,
+				EF5786721B9EFF6E00EAC45C /* SpinerLayer.h */,
+				EF5786731B9EFF6E00EAC45C /* SpinerLayer.m */,
+				EF59D14D1BA3BF3D0076B716 /* TransitionButton.h */,
+				EF59D14E1BA3BF3D0076B716 /* TransitionButton.m */,
+				EF5786561B9EFF2700EAC45C /* Main.storyboard */,
+				EF5786591B9EFF2700EAC45C /* Images.xcassets */,
+				EF57865B1B9EFF2700EAC45C /* LaunchScreen.xib */,
+				EF57864C1B9EFF2700EAC45C /* Supporting Files */,
+			);
+			path = SpinerLoginButtonDemo;
+			sourceTree = "<group>";
+		};
+		EF57864C1B9EFF2700EAC45C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF57864D1B9EFF2700EAC45C /* Info.plist */,
+				EF57864E1B9EFF2700EAC45C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF5786651B9EFF2700EAC45C /* SpinerLoginButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5786681B9EFF2700EAC45C /* SpinerLoginButtonDemoTests.m */,
+				EF5786661B9EFF2700EAC45C /* Supporting Files */,
+			);
+			path = SpinerLoginButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		EF5786661B9EFF2700EAC45C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5786671B9EFF2700EAC45C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5786481B9EFF2700EAC45C /* SpinerLoginButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF57866C1B9EFF2700EAC45C /* Build configuration list for PBXNativeTarget "SpinerLoginButtonDemo" */;
+			buildPhases = (
+				EF5786451B9EFF2700EAC45C /* Sources */,
+				EF5786461B9EFF2700EAC45C /* Frameworks */,
+				EF5786471B9EFF2700EAC45C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinerLoginButtonDemo;
+			productName = SpinerLoginButtonDemo;
+			productReference = EF5786491B9EFF2700EAC45C /* SpinerLoginButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF5786611B9EFF2700EAC45C /* SpinerLoginButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF57866F1B9EFF2700EAC45C /* Build configuration list for PBXNativeTarget "SpinerLoginButtonDemoTests" */;
+			buildPhases = (
+				EF57865E1B9EFF2700EAC45C /* Sources */,
+				EF57865F1B9EFF2700EAC45C /* Frameworks */,
+				EF5786601B9EFF2700EAC45C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5786641B9EFF2700EAC45C /* PBXTargetDependency */,
+			);
+			name = SpinerLoginButtonDemoTests;
+			productName = SpinerLoginButtonDemoTests;
+			productReference = EF5786621B9EFF2700EAC45C /* SpinerLoginButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5786411B9EFF2700EAC45C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = soffice;
+				TargetAttributes = {
+					EF5786481B9EFF2700EAC45C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EF5786611B9EFF2700EAC45C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EF5786481B9EFF2700EAC45C;
+					};
+				};
+			};
+			buildConfigurationList = EF5786441B9EFF2700EAC45C /* Build configuration list for PBXProject "SpinerLoginButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5786401B9EFF2700EAC45C;
+			productRefGroup = EF57864A1B9EFF2700EAC45C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5786481B9EFF2700EAC45C /* SpinerLoginButtonDemo */,
+				EF5786611B9EFF2700EAC45C /* SpinerLoginButtonDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5786471B9EFF2700EAC45C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5786581B9EFF2700EAC45C /* Main.storyboard in Resources */,
+				EF57865D1B9EFF2700EAC45C /* LaunchScreen.xib in Resources */,
+				EF57865A1B9EFF2700EAC45C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5786601B9EFF2700EAC45C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5786451B9EFF2700EAC45C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5786551B9EFF2700EAC45C /* ViewController.m in Sources */,
+				EF59D14F1BA3BF3D0076B716 /* TransitionButton.m in Sources */,
+				EF5786521B9EFF2700EAC45C /* AppDelegate.m in Sources */,
+				EF5786741B9EFF6E00EAC45C /* SpinerLayer.m in Sources */,
+				EF57864F1B9EFF2700EAC45C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF57865E1B9EFF2700EAC45C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5786691B9EFF2700EAC45C /* SpinerLoginButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF5786641B9EFF2700EAC45C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5786481B9EFF2700EAC45C /* SpinerLoginButtonDemo */;
+			targetProxy = EF5786631B9EFF2700EAC45C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF5786561B9EFF2700EAC45C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5786571B9EFF2700EAC45C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF57865B1B9EFF2700EAC45C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF57865C1B9EFF2700EAC45C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF57866A1B9EFF2700EAC45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF57866B1B9EFF2700EAC45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF57866D1B9EFF2700EAC45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpinerLoginButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF57866E1B9EFF2700EAC45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpinerLoginButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF5786701B9EFF2700EAC45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpinerLoginButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpinerLoginButtonDemo.app/SpinerLoginButtonDemo";
+			};
+			name = Debug;
+		};
+		EF5786711B9EFF2700EAC45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpinerLoginButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpinerLoginButtonDemo.app/SpinerLoginButtonDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5786441B9EFF2700EAC45C /* Build configuration list for PBXProject "SpinerLoginButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF57866A1B9EFF2700EAC45C /* Debug */,
+				EF57866B1B9EFF2700EAC45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF57866C1B9EFF2700EAC45C /* Build configuration list for PBXNativeTarget "SpinerLoginButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF57866D1B9EFF2700EAC45C /* Debug */,
+				EF57866E1B9EFF2700EAC45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF57866F1B9EFF2700EAC45C /* Build configuration list for PBXNativeTarget "SpinerLoginButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5786701B9EFF2700EAC45C /* Debug */,
+				EF5786711B9EFF2700EAC45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF5786411B9EFF2700EAC45C /* Project object */;
+}
