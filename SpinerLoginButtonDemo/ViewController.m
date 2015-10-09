@@ -58,7 +58,7 @@
                                                                                         100,
                                                                                         120.0,
                                                                                         44.0)];
-        [_customColorloginButton setTitle:@"Custom" forState:UIControlStateNormal];
+        [_customColorloginButton setTitle:@"登录" forState:UIControlStateNormal];
         [_customColorloginButton addTarget:self
                                     action:@selector(customOnClick:)
                           forControlEvents:UIControlEventTouchUpInside];
@@ -70,6 +70,7 @@
 
 - (void)loginOnClick:(id)sender {
 
+    self.loginButton.enabled    = NO;
     [self.loginButton startLoadingAnimation];
 
     // 模拟登录过程
@@ -85,11 +86,13 @@
             
             [self.loginButton finishedAnimation];
         }
+                       self.loginButton.enabled    = YES;
     });
 }
 
 - (void)customOnClick:(id)sender {
     
+    self.customColorloginButton.enabled = NO;
     [self.customColorloginButton startLoadingAnimation];
     
     // 模拟登录过程
@@ -105,6 +108,7 @@
             
             [self.customColorloginButton finishedAnimation];
         }
+                       self.customColorloginButton.enabled  = YES;
     });
 }
 
